@@ -6,3 +6,21 @@ body {
     background-size: cover;
     
 }
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+nav button, nav input[type=reset] {
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
